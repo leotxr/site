@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "./components/HelloWorld.vue";
 import AboutView from "./views/AboutView.vue";
 import HomeView from "./views/HomeView.vue";
+import NavButton from "./components/NavButton.vue";
 </script>
 
 <template>
@@ -10,8 +11,8 @@ import HomeView from "./views/HomeView.vue";
     <div>
       <HelloWorld msg="Hi there! 🤯" />
       <nav>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <NavButton label="Skills" href="#skills" >aa</NavButton>
+        <NavButton label="Projects" href="#projects" >aa</NavButton>
       </nav>
     </div>
   </header>
