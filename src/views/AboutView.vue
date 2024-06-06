@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen">
-    <h1>This is an about page</h1>
+  <div >
+    <h1>Projects</h1>
   </div>
 </template>
 

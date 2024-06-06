@@ -48,6 +48,12 @@ nav {
   margin-top: 2rem;
 }
 
+main {
+    text-align: left;
+    width: 100%;
+    max-width: 90%;
+  }
+
 nav a.router-link-exact-active {
   color: var(--color-text);
 }
@@ -90,9 +96,18 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+
+  main {
+    text-align: left;
+    width: 100%;
+    max-width: 50%;
+  }
+
+  article {
+    margin-top: 1.8rem;
   }
 }
 </style>
